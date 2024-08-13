@@ -1,0 +1,126 @@
+/* ESTILOS GENERALES */
+body {
+    /* Establece la fuente principal, márgenes, relleno, color de fondo y centrado del contenido */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5F9; /* Color de fondo claro */
+    display: flex; /* Flexbox para centrar el contenido */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la viewport */
+}
+
+.container {
+    /* Estilos para el contenedor principal */
+    display: flex; /* Flexbox para disposición horizontal */
+    background-color: #FFFFFF; /* Color de fondo blanco */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+    max-width: 900px; /* Ancho máximo */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/*  Section  IZQUIERDA*/
+.left-section {
+    /* Estilos para la sección izquierda */
+    flex: 2; /* Ocupa 2 partes del contenedor */
+    padding: 40px; /* Espacio interno */
+    display: flex; /* Flexbox para disposición vertical */
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    background-color: #E9ECF3; /* Color de fondo */
+}
+
+.left-section h2 {
+    /* Estilos para el título de la sección izquierda */
+    color: #2A4365; /* Color del texto */
+    font-weight: 500; /* Fuente seminegrita */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+textarea {
+    /* Estilos para el área de texto */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 150px; /* Altura fija */
+    border: 1px solid #CBD5E0; /* Borde */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #2A4365; /* Color del texto */
+    resize: none; /* Deshabilita el redimensionamiento */
+    outline: none; /* Elimina el contorno al enfocar */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.buttons {
+    /* Estilos para los botones */
+    display: flex; /* Flexbox para disposición horizontal */
+    justify-content: space-between; /* Distribuye botones uniformemente */
+    align-items: center; /* Alinea verticalmente */
+}
+
+.buttons div:first-child {
+    /* Estilos para el primer contenedor de botones */
+    display: flex;
+    align-items: center;
+}
+
+label {
+    /* Estilos para las etiquetas */
+    font-size: 14px;
+    color: #4A5568;
+}
+
+.encrypt-button, .desencrypt-button {
+    /* Estilos comunes para los botones */
+    padding: 10px 20px;
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 16px;
+    cursor: pointer; /* Cambia el cursor al apuntar */
+}
+
+.encrypt-button {
+    /* Estilos para el botón de encriptar */
+    background-color: #2B6CB0; /* Color de fondo */
+    color: #FFFFFF; /* Color del texto */
+}
+
+.desencrypt-button {
+    /* Estilos para el botón de desencriptar */
+    background-color: #E2E8F0; /* Color de fondo */
+    color: #2B6CB0; /* Color del texto */
+}
+
+/* Section derecha */
+.right-section {
+    /* Estilos para la sección derecha */
+    flex: 1; /* Ocupa 1 parte del contenedor */
+    background-color: #F7FAFC; /* Color de fondo */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section img {
+    /* Estilos para la imagen */
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.right-section p {
+    /* Estilos para el párrafo */
+    color: #4A5568;
+    text-align: center;
+    font-size: 14px;
+}
+
+.right-section strong {
+    /* Estilos para el texto en negrita */
+    color: #2A4365;
+    font-size: 16px;
+}
