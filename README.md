@@ -1,13 +1,13 @@
-# Encriptador y Desencriptador en JavaScript
+# JavaScript Encryptor and Decryptor
 
-Este proyecto es una herramienta simple para encriptar y desencriptar texto utilizando el algoritmo de Cifrado César con un desplazamiento de 3. La aplicación permite al usuario ingresar texto en un área de texto, encriptar o desencriptar el texto y ver el resultado en la misma página web.
+This project is a simple tool for encrypting and decrypting text using the Caesar Cipher algorithm with a shift of 3. The application allows the user to enter text in a text area, encrypt or decrypt the text, and view the result on the same web page.
 
-## Funcionalidades
+Features
 
-- **Encriptar Texto**: Utiliza el algoritmo de Cifrado César para encriptar el texto ingresado.
-- **Desencriptar Texto**: Utiliza el mismo algoritmo pero con un desplazamiento inverso para desencriptar el texto.
-- **Mensajes de Error**: Muestra mensajes de error si el área de texto está vacía cuando se intenta encriptar o desencriptar.
+Encrypt Text: Uses the Caesar Cipher algorithm to encrypt the entered text.
+Decrypt Text: Uses the same algorithm but with a reverse shift to decrypt the text.
+Error Messages: Displays error messages if the text area is empty when attempting to encrypt or decrypt.
 
-## Requisitos
+Requirements
 
-- Navegador web moderno que soporte JavaScript.
+A modern web browser that supports JavaScript.
